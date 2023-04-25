@@ -3,10 +3,10 @@
     {
         include_once('config.php');
 
-        $id = $_POST["id"];
-        $nome = $_POST["nome"];
-        $quantidade = $_POST["quantidade"];
-        $valor = $_POST["valor"];
+        //$id = $_POST["id"];
+        //$nome = $_POST["nome"];
+        //$quantidade = $_POST["quantidade"];
+        //$valor = $_POST["valor"];
     }
 ?>
 
@@ -95,7 +95,7 @@
 <body>
     <a href="login.php">Sair</a>
     <div class="box">
-        <form action="cadastro_produto.php">
+        <form action="cadastro_produtos.php">
             <fieldset>
                 <legend><b>Cadastrar Produto</b></legend>
                 <br>

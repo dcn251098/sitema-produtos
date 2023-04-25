@@ -50,7 +50,7 @@
     <a href="index.php">Voltar</a>
     <div class="tela-login">
         <h1>Login</h1>
-        <form action="" method="POST">        
+        <form action="cadastro_produtos.php" method="POST">        
             <input type="text" name="email" placeholder="Email">
             <br><br>
             <input type="password" name="senha" placeholder="Senha">
