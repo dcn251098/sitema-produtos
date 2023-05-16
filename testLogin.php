@@ -6,17 +6,22 @@
         $email = $_POST['email'];
         $senha = $_POST['senha'];
 
-        $sql = "SELECT * FROM usuarios WHERE email = 'email' and senha = '$senha'";
+        $sql = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
 
         $result = $conexao->query($sql);
 
-        if(mysqli_num_rows($result) < 1)
+        if(mysqli_num_rows($result) > 0)
         {
-            header('Location: login.php');
+            if($adm == 1){
+                header('Location: admin.php');
+            }
+            else{
+                header('Location: cliente.php');
+            }
         }
         else
         {
-            header('Location: cadastro_produtos.php');
+            header('Location: login.php');
         }
     }
     else
