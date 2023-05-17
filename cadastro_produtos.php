@@ -2,11 +2,6 @@
     if(isset($_POST['submit']))
     {
         include_once('config.php');
-
-        //$id = $_POST["id"];
-        //$nome = $_POST["nome"];
-        //$quantidade = $_POST["quantidade"];
-        //$valor = $_POST["valor"];
     }
 ?>
 

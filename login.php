@@ -1,5 +1,9 @@
 <?php
+    if(isset($_POST['submit']))
+    {
+        include_once('config.php');
 
+    }
 
 ?>
 <!DOCTYPE html>
@@ -50,7 +54,7 @@
     <a href="index.php">Voltar</a>
     <div class="tela-login">
         <h1>Login</h1>
-        <form action="cadastro_produtos.php" method="POST">        
+        <form action="testLogin.php" method="POST">        
             <input type="text" name="email" placeholder="Email">
             <br><br>
             <input type="password" name="senha" placeholder="Senha">

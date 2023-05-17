@@ -1,11 +1,3 @@
-<?php
-    if(isset($_POST['submit']))
-    {
-        include_once('config.php');
-
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,8 +36,9 @@
 <body>
     <h1>Sistema de Produtos</h1>
     <div class="box">
-        <a href="login.php">Login</a>
-        <a href="cadastro_usuario.php">Cadastre-se</a>
+        <a href="">Gerenciar usuários</a>
+        <a href="">Gerenciar pedidos</a>
+        <a href="">Gerenciar produtos</a>
     </div>
 </body>
 </html>

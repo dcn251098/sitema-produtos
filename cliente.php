@@ -2,7 +2,6 @@
     if(isset($_POST['submit']))
     {
         include_once('config.php');
-
     }
 ?>
 
@@ -44,8 +43,8 @@
 <body>
     <h1>Sistema de Produtos</h1>
     <div class="box">
-        <a href="login.php">Login</a>
-        <a href="cadastro_usuario.php">Cadastre-se</a>
+        <a href="pedido.php">Fazer Pedido</a>
+        <a href="pedido.php">Editar perfil</a>
     </div>
 </body>
 </html>
